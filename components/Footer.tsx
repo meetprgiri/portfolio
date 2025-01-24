@@ -4,6 +4,9 @@ import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
+  const handleClick = (url: string) => {
+    window.open(url, "_blank");
+  };
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
@@ -20,7 +23,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:meetprgiri@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -36,6 +39,7 @@ const Footer = () => {
             <div
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              onClick={() => handleClick(info.link)}
             >
               <img src={info.img} alt="icons" width={20} height={20} />
             </div>

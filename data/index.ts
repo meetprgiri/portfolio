@@ -171,13 +171,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/meetprgiri",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/meetprgiri?t=fSqcH2d7yAPOSip7Jkx0uQ&s=08",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/meetprgiri/",
   },
 ];
