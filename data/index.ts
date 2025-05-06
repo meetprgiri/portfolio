@@ -87,7 +87,7 @@ export const projects = [
     des: "ExpenseQL is a full-stack application designed to help users manage their financial transactions by tracking their expenses and savings.",
     img: "/expenseql.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gq.svg"],
-    link: "https://expenseql.onrender.com",
+    link: "https://expenseql-1.onrender.com/",
   },
 ];
 
